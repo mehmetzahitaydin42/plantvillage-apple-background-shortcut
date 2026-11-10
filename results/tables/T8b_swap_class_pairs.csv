@@ -1,0 +1,61 @@
+model,leaf_class,background_class,n,follows_leaf_pct,follows_background_pct
+MobileNetV3,Apple scab,Black rot,173,87.9,4.6
+MobileNetV3,Apple scab,Cedar apple rust,63,90.5,7.9
+MobileNetV3,Apple scab,Healthy,394,87.8,3.6
+MobileNetV3,Black rot,Apple scab,151,40.4,43
+MobileNetV3,Black rot,Cedar apple rust,69,71,14.5
+MobileNetV3,Black rot,Healthy,401,54.9,8.2
+MobileNetV3,Cedar apple rust,Apple scab,46,67.4,32.6
+MobileNetV3,Cedar apple rust,Black rot,69,59.4,14.5
+MobileNetV3,Cedar apple rust,Healthy,160,77.5,2.5
+MobileNetV3,Healthy,Apple scab,699,59.5,34.6
+MobileNetV3,Healthy,Black rot,647,67.7,11.4
+MobileNetV3,Healthy,Cedar apple rust,292,80.5,6.2
+LightweightCNN,Apple scab,Black rot,173,52,24.9
+LightweightCNN,Apple scab,Cedar apple rust,63,25.4,57.1
+LightweightCNN,Apple scab,Healthy,394,59.4,23.6
+LightweightCNN,Black rot,Apple scab,151,37.1,50.3
+LightweightCNN,Black rot,Cedar apple rust,69,50.7,37.7
+LightweightCNN,Black rot,Healthy,401,57.6,18
+LightweightCNN,Cedar apple rust,Apple scab,46,13,76.1
+LightweightCNN,Cedar apple rust,Black rot,69,29,36.2
+LightweightCNN,Cedar apple rust,Healthy,160,39.4,22.5
+LightweightCNN,Healthy,Apple scab,699,73,22.5
+LightweightCNN,Healthy,Black rot,647,66.9,23.5
+LightweightCNN,Healthy,Cedar apple rust,292,82.2,13.7
+RF,Apple scab,Black rot,173,45.7,21.4
+RF,Apple scab,Cedar apple rust,63,19,46
+RF,Apple scab,Healthy,394,53.8,43.1
+RF,Black rot,Apple scab,151,23.8,63.6
+RF,Black rot,Cedar apple rust,69,21.7,50.7
+RF,Black rot,Healthy,401,28.7,37.9
+RF,Cedar apple rust,Apple scab,46,2.2,91.3
+RF,Cedar apple rust,Black rot,69,36.2,11.6
+RF,Cedar apple rust,Healthy,160,18.8,29.4
+RF,Healthy,Apple scab,699,64.1,34.8
+RF,Healthy,Black rot,647,73.1,17.2
+RF,Healthy,Cedar apple rust,292,78.1,19.2
+SVM,Apple scab,Black rot,173,53.2,27.7
+SVM,Apple scab,Cedar apple rust,63,20.6,57.1
+SVM,Apple scab,Healthy,394,36.3,56.6
+SVM,Black rot,Apple scab,151,25.2,65.6
+SVM,Black rot,Cedar apple rust,69,17.4,60.9
+SVM,Black rot,Healthy,401,24.9,53.4
+SVM,Cedar apple rust,Apple scab,46,4.3,84.8
+SVM,Cedar apple rust,Black rot,69,40.6,15.9
+SVM,Cedar apple rust,Healthy,160,30.6,37.5
+SVM,Healthy,Apple scab,699,42.8,53.2
+SVM,Healthy,Black rot,647,31.7,43.9
+SVM,Healthy,Cedar apple rust,292,71.6,27.1
+XGBoost,Apple scab,Black rot,173,49.1,24.3
+XGBoost,Apple scab,Cedar apple rust,63,11.1,61.9
+XGBoost,Apple scab,Healthy,394,45.4,47.7
+XGBoost,Black rot,Apple scab,151,25.8,64.9
+XGBoost,Black rot,Cedar apple rust,69,27.5,53.6
+XGBoost,Black rot,Healthy,401,36.7,41.4
+XGBoost,Cedar apple rust,Apple scab,46,2.2,97.8
+XGBoost,Cedar apple rust,Black rot,69,34.8,15.9
+XGBoost,Cedar apple rust,Healthy,160,19.4,28.7
+XGBoost,Healthy,Apple scab,699,53.4,45.5
+XGBoost,Healthy,Black rot,647,57.5,23.6
+XGBoost,Healthy,Cedar apple rust,292,71.6,25.7

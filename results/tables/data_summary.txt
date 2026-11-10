@@ -1,0 +1,4 @@
+initial_images=3171
+near_duplicates_removed=7
+dhash_threshold=4
+mean_leaf_area=0.4359

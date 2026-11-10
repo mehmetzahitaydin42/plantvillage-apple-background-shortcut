@@ -1,0 +1,7 @@
+A,B,metric,J,difference,CI95_lower,CI95_upper,t,p_corrected_t,p_TOST,p_McNemar
+LightweightCNN_augmentation / original,LightweightCNN / original,accuracy,15,-7.78,-17.38,1.82,-1.74,0.104,0.891,1.26e-51
+LightweightCNN_no_class_weights / original,LightweightCNN / original,accuracy,15,0.65,-2.43,3.74,0.45,0.656,0.183,0.248
+LightweightCNN_128px / original,LightweightCNN / original,accuracy,15,-1.03,-3.6,1.54,-0.86,0.404,0.217,8.46e-4
+LightweightCNN_augmentation / original,LightweightCNN / original,macro_F1,15,-8.87,-20.38,2.65,-1.65,0.121,0.889,1.26e-51
+LightweightCNN_no_class_weights / original,LightweightCNN / original,macro_F1,15,0.56,-2.84,3.95,0.35,0.731,0.188,0.248
+LightweightCNN_128px / original,LightweightCNN / original,macro_F1,15,-0.94,-3.51,1.64,-0.78,0.448,0.195,8.46e-4

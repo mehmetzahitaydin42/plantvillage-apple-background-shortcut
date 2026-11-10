@@ -1,0 +1,11 @@
+model,condition,n,follows_leaf_pct,follows_background_pct,other_pct
+MobileNetV3,same_class,3164,83.8,0,16.2
+MobileNetV3,different_class,3164,68.6,15.7,15.7
+LightweightCNN,same_class,3164,86.5,0,13.5
+LightweightCNN,different_class,3164,61.1,25,13.9
+RF,same_class,3164,86.9,0,13.1
+RF,different_class,3164,52.9,32.4,14.7
+SVM,same_class,3164,89.1,0,10.9
+SVM,different_class,3164,37.6,47.6,14.8
+XGBoost,same_class,3164,87.7,0,12.3
+XGBoost,different_class,3164,47,38.5,14.5

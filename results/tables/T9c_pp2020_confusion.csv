@@ -1,0 +1,53 @@
+model,true_class,predicted_class,n
+MobileNetV3,Apple scab,Apple scab,506
+MobileNetV3,Apple scab,Black rot,19
+MobileNetV3,Apple scab,Cedar apple rust,66
+MobileNetV3,Apple scab,Healthy,1
+MobileNetV3,Cedar apple rust,Apple scab,475
+MobileNetV3,Cedar apple rust,Black rot,34
+MobileNetV3,Cedar apple rust,Cedar apple rust,112
+MobileNetV3,Cedar apple rust,Healthy,1
+MobileNetV3,Healthy,Apple scab,430
+MobileNetV3,Healthy,Black rot,27
+MobileNetV3,Healthy,Cedar apple rust,47
+MobileNetV3,Healthy,Healthy,12
+LightweightCNN,Apple scab,Apple scab,399
+LightweightCNN,Apple scab,Black rot,10
+LightweightCNN,Apple scab,Cedar apple rust,181
+LightweightCNN,Apple scab,Healthy,2
+LightweightCNN,Cedar apple rust,Apple scab,476
+LightweightCNN,Cedar apple rust,Black rot,29
+LightweightCNN,Cedar apple rust,Cedar apple rust,114
+LightweightCNN,Cedar apple rust,Healthy,3
+LightweightCNN,Healthy,Apple scab,343
+LightweightCNN,Healthy,Black rot,78
+LightweightCNN,Healthy,Cedar apple rust,81
+LightweightCNN,Healthy,Healthy,14
+RF,Apple scab,Apple scab,370
+RF,Apple scab,Cedar apple rust,99
+RF,Apple scab,Healthy,123
+RF,Cedar apple rust,Apple scab,396
+RF,Cedar apple rust,Cedar apple rust,108
+RF,Cedar apple rust,Healthy,118
+RF,Healthy,Apple scab,340
+RF,Healthy,Cedar apple rust,46
+RF,Healthy,Healthy,130
+SVM,Apple scab,Apple scab,423
+SVM,Apple scab,Cedar apple rust,15
+SVM,Apple scab,Healthy,154
+SVM,Cedar apple rust,Apple scab,403
+SVM,Cedar apple rust,Cedar apple rust,5
+SVM,Cedar apple rust,Healthy,214
+SVM,Healthy,Apple scab,289
+SVM,Healthy,Cedar apple rust,6
+SVM,Healthy,Healthy,221
+XGBoost,Apple scab,Apple scab,479
+XGBoost,Apple scab,Cedar apple rust,71
+XGBoost,Apple scab,Healthy,42
+XGBoost,Cedar apple rust,Apple scab,537
+XGBoost,Cedar apple rust,Cedar apple rust,48
+XGBoost,Cedar apple rust,Healthy,37
+XGBoost,Healthy,Apple scab,424
+XGBoost,Healthy,Black rot,1
+XGBoost,Healthy,Cedar apple rust,32
+XGBoost,Healthy,Healthy,59

@@ -1,0 +1,11 @@
+training_variant,class,n,leaf_attention_mean,leaf_attention_sd,leaf_area,excess_attention,pointing_game
+original,Apple scab,630,0.635,0.194,0.516,0.119,0.713
+original,Black rot,621,0.431,0.137,0.448,-0.017,0.296
+original,Cedar apple rust,275,0.349,0.196,0.407,-0.059,0.189
+original,Healthy,1638,0.373,0.167,0.405,-0.032,0.311
+leaf_only,Apple scab,630,0.749,0.222,0.516,0.233,0.811
+leaf_only,Black rot,621,0.476,0.18,0.448,0.028,0.375
+leaf_only,Cedar apple rust,275,0.423,0.164,0.407,0.016,0.455
+leaf_only,Healthy,1638,0.426,0.159,0.405,0.021,0.44
+original,All,3164,0.434,0.199,0.436,-0.002,0.377
+leaf_only,All,3164,0.5,0.218,0.436,0.064,0.502

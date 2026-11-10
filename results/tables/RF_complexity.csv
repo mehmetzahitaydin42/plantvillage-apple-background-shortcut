@@ -1,0 +1,5 @@
+metric,value
+feature_extraction_ms_per_image,9.65
+rf_prediction_ms_per_image,7.65
+total_ms_per_image,17.3
+rf_model_size_MB,0.61

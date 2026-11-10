@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code and results for: Is the Leaf Enough? Background Shortcuts and Fair Benchmarking of Lightweight Deep Learning and Classical Machine Learning for Apple Leaf Disease Classification"
+type: software
+authors:
+  - family-names: "Aydın"
+    given-names: "Mehmet Zahit"
+    affiliation: "Recep Tayyip Erdoğan University"
+    orcid: "https://orcid.org/0000-0002-7833-521X"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-10"
+keywords:
+  - apple leaf disease
+  - shortcut learning
+  - dataset bias
+  - PlantVillage

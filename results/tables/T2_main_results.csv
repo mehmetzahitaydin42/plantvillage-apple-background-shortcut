@@ -1,0 +1,24 @@
+variant,model,splits,accuracy_pct,CI95_corrected_pct,macro_F1
+original,SVM,50,97.5 ± 0.6,"[96.9, 98.2]",0.973 ± 0.007
+original,XGBoost,50,97.4 ± 0.6,"[96.9, 98.0]",0.972 ± 0.006
+original,RF,50,96.8 ± 0.7,"[96.1, 97.5]",0.967 ± 0.008
+original,MobileNetV3,15,96.1 ± 0.5,"[95.5, 96.8]",0.957 ± 0.006
+original,LightweightCNN_no_class_weights,15,95.3 ± 1.5,"[93.5, 97.1]",0.945 ± 0.018
+original,LightweightCNN,15,94.7 ± 2.0,"[92.3, 97.0]",0.940 ± 0.022
+original,LightweightCNN_128px,15,93.6 ± 1.6,"[91.6, 95.6]",0.931 ± 0.019
+original,LightweightCNN_augmentation,15,86.9 ± 7.0,"[78.4, 95.3]",0.851 ± 0.088
+leaf_only,SVM,50,95.8 ± 0.8,"[95.0, 96.7]",0.952 ± 0.011
+leaf_only,XGBoost,50,95.6 ± 0.9,"[94.7, 96.5]",0.951 ± 0.010
+leaf_only,MobileNetV3,15,94.5 ± 1.1,"[93.3, 95.8]",0.935 ± 0.013
+leaf_only,RF,50,93.4 ± 1.0,"[92.4, 94.4]",0.929 ± 0.011
+leaf_only,LightweightCNN,15,91.6 ± 3.0,"[88.0, 95.3]",0.904 ± 0.040
+background_only,XGBoost,50,96.7 ± 0.7,"[96.0, 97.4]",0.962 ± 0.009
+background_only,SVM,50,95.6 ± 0.8,"[94.8, 96.5]",0.950 ± 0.010
+background_only,RF,50,95.6 ± 0.7,"[94.8, 96.4]",0.952 ± 0.008
+background_only,MobileNetV3,15,86.8 ± 2.8,"[83.5, 90.2]",0.847 ± 0.028
+background_only,LightweightCNN,15,86.7 ± 5.7,"[79.8, 93.6]",0.854 ± 0.055
+silhouette_only,LightweightCNN,15,72.6 ± 5.4,"[66.1, 79.1]",0.676 ± 0.077
+silhouette_only,MobileNetV3,15,71.0 ± 2.6,"[67.8, 74.2]",0.676 ± 0.021
+silhouette_only,RF,50,58.2 ± 1.2,"[56.9, 59.4]",0.397 ± 0.015
+silhouette_only,SVM,50,57.9 ± 1.7,"[56.2, 59.7]",0.408 ± 0.018
+silhouette_only,XGBoost,50,49.1 ± 1.8,"[47.3, 51.0]",0.424 ± 0.020

@@ -1,0 +1,3 @@
+model,trainable_params,total_params,weights_file_MB,keras_file_MB,single_image_ms,batched_ms_per_image,MFLOP
+LightweightCNN,257860,257860,1.03,1.04,22.2,2.59,228.3
+MobileNetV3,2308,941428,3.99,4.14,195.6,5.06,NA
